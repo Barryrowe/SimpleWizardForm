@@ -1,9 +1,8 @@
 ---
- name: Simple Wizard Form jQuery Plugin (DEMO)
+ name: Simple Wizard jQuery Plugin 
  description: This is a demo of the Simple Wizard Form jQuery Plugin, designed to provide simple step navigation for multi-section style forms.
  authors:
    - Barry Rowe 
- resources:
  normalize_css: no
 ...
 
