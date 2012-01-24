@@ -3,6 +3,6 @@
  description: This is a demo of the Simple Wizard Form jQuery Plugin, designed to provide simple step navigation for multi-section style forms.
  authors:
    - Barry Rowe 
- normalize_css: no
+ normalize_css: yes 
 ...
 
