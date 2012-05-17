@@ -1,0 +1,88 @@
+
+/*
+Basic Content container stylings
+*/
+ol,ul{ list-style: none; padding: 0; margin: 0;}
+#steps-list>li{
+    border: solid 1px #FF3300;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 10px;    
+}
+/*
+Basic Title/Description stylings
+*/
+.step-title{
+    display: block;
+    font-size: 1.2em;
+    padding: 2px;
+}
+
+.step-description{
+    display: inline;
+    font-size: .8em;
+    font-style: italic;
+}
+
+.step-content{
+     height: 200px;
+     border: solid 2px #000000;
+     text-align: center;
+     padding: 10px;
+     margin: 5px;   
+}
+/*
+Basic Button Bar stylings
+*/
+.button-bar{
+    margin: 1% 0 0 0;
+    border: 1px solid #EFEFEF;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    height: 50px;   
+}
+
+.previous-button, .next-button, .finish-button{
+    padding: 5px;
+    border: 1px solid #000000;
+    background: #0033AA;
+    color: #5588FF;
+    max-width: 100px;
+    min-width: 100px;
+    cursor: pointer;
+    clear: both;
+}
+.next-button, .next-button-title{
+    float: right;
+}
+.finish-button{
+    padding: 5px;
+    border: 1px solid #000000;
+    background: #008800;
+    color: #00FF33;
+    max-width: 100px;
+    cursor: pointer;
+}
+.next-area, .previous-area{
+    margin: 15px 0 0 0;
+}
+
+.next-area, .finish-area{
+    float: right;
+    text-align: right;
+}
+.previous-area{
+    float: left;
+    text-align: left;
+}
+
+.finish-area{
+    margin: 33px 0 0 0;
+}
+
+.invalid{
+    color: #FF0000;
+    font-size: 10pt;        
+}
